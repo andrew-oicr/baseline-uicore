@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<main id="home-page">
+<main id="about-page">
     <section class="jumbotron">
         <div class="container">
             <div class="row">

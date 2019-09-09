@@ -62,6 +62,10 @@ collections:
     output: false
   _banner:
     output: true
+  _logs:
+    output: true
+  _andrew:
+    output: true
 
 defaults:
   # Default
@@ -126,6 +130,12 @@ defaults:
       type: _banner
     values:
       layout: banner
+  - scope:
+      path: ""
+      type: _andrew
+    values:
+      layout: andrew
+      published: true
 
 ######################################################################
 # Jekyll Environment Config
