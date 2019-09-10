@@ -1,11 +1,34 @@
+%dark-theme {
+    color: $gray-text;
+    background-color: $gray-background
+}
+
+%darker {
+    color: $darker-text;
+    background-color: $darker-background
+}
+
+body {
+    @extend %dark-theme;
+}
+
+p {
+    //word-spacing: 2px;
+}
+
+h3 {
+
+}
+
+.log-table {
+    @extend %dark-theme;
+}
+
+.jumbotron {
+    @extend %darker;
+}
+
 .main-body {
-    color: yellow;
-}
-
-#testt {
-    color: yellow;
-}
-
-.container {
-    background-color: rgb(56, 56, 56);
+    font-size: 1.25em;
+    text-align: justify;
 }

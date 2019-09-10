@@ -1,4 +1,6 @@
 {% assign nav = site._modules | where:"slug", "nav" | first %}
+
+<!--
 <div id="navigation" class="navigation container-shadow">
     <div id="login-user-nav">
         <header class="wrapper">
@@ -83,4 +85,7 @@
             </div>
         </div>
     </nav>
-</div>
+</div>-->
+
+<nav id="sticky-nav" class="navbar nav-main navbar-no-border">Navbar here!
+</nav>

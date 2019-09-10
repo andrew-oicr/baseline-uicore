@@ -28,12 +28,12 @@ layout: default
                 <div class="col-md-10 col-md-offset-1">
                 <h3>Progress Log</h3>
                 <table class="table">
-                    <tr>
+                    <tr class="log-table">
                         <th>Date</th>
                         <th>Description</th>
                     </tr>
                     {% for log in site._logs %}
-                    <tr>
+                    <tr class="log-table">
                         <td>{{log.date_txt}}</td>
                         <td>{{log.desc_txt}}</td>
                     </tr>
