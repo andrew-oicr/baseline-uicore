@@ -2,25 +2,14 @@
 layout: default
 ---
 <main id="about-page">
-    <section class="jumbotron">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h1>Andrew Chin</h1>
-                    <p>{{page.page_desc_txt}}</p>
-                </div>
-            </div>
-        </div>
-    </section>
+
     <section class="main-body">
         <div class="container">
             <div class="row">        
-                <div class="col-md-6">
-                    <!-- what to put here? -->
+                <!--<div class="col-md-6">
                     <p id="testt">{{page.about_me_txt}}</p>
                 </div>
                 <div class="col-md-6">
-                    <!-- insert image -->
                     <img class="img-responsive" src="{{page.neofetchImg}}" alt="{{page.neofetchAlt_txt}}" />
                 </div>
             </div>
@@ -38,7 +27,9 @@ layout: default
                         <td>{{log.desc_txt}}</td>
                     </tr>
                     {% endfor %}
-                </table>
+                </table>-->
+
+            
             </div>    
         </div>
     </section>

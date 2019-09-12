@@ -9,6 +9,7 @@ permalink: /about/
 published: true
 isPublic_b: true
 
+page_heading_txt: About
 
 page_desc_txt: |-
     Hello there! I am a computer science undergraduate student experimenting with Arch Linux. 

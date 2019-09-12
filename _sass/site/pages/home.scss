@@ -8,6 +8,19 @@
     background-color: $darker-background
 }
 
+// Added cus navbar problems :CCC
+.navbar .container-fluid>.navbar-header {
+    float: left;
+    margin-right: 10px;
+  }
+  .navbar .navbar-nav {
+    float: left;
+    margin: 5px;
+  }
+  .nav>li {
+    float: left;
+  }
+
 body {
     @extend %dark-theme;
 }
@@ -20,7 +33,7 @@ h3 {
 
 }
 
-.log-table {
+.home-log-table {
     @extend %dark-theme;
 }
 
@@ -28,7 +41,7 @@ h3 {
     @extend %darker;
 }
 
-.main-body {
+.home-main-body {
     font-size: 1.25em;
     text-align: justify;
 }

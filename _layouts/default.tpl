@@ -9,6 +9,7 @@
     {% comment %}{% include core/banner.inc position='center' %}{% endcomment %}
     <div id="main-website-area">
         {% include site/nav.inc %}
+        {% include site/jumbo.inc %}
         <div id="editButton" data-path="{{ page.path }}" data-is-public="{{ page.isPublic_b }}"></div>
         {% include core/token_replace.inc content=content %}
         {% include core/back_to_top.inc %}
@@ -16,7 +17,7 @@
     </div>
     {% comment %}{% include core/banner.inc position='bottom' %}{% endcomment %}
     {% include core/footer_scripts.inc %}
-    {% comment %}{% include dist/footer_scripts.inc %}{% endcomment %}
+    {% include dist/footer_scripts.inc %}
     {% comment %}{% include site/footer_scripts.inc %}{% endcomment %}
 </body>
 </html>

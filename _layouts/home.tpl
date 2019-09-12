@@ -2,17 +2,8 @@
 layout: default
 ---
 <main id="home-page">
-    <section class="jumbotron">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h1>Andrew Chin</h1>
-                    <p>{{page.page_desc_txt}}</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="main-body">
+
+    <section class="home-main-body">
         <div class="container">
             <div class="row">
                 <div class="col-md-8">
@@ -28,12 +19,12 @@ layout: default
                 <div class="col-md-10 col-md-offset-1">
                     <h2>Progress Log</h2>
                     <table class="table">
-                        <tr class="log-table">
+                        <tr class="home-log-table">
                             <th>Date</th>
                             <th>Description</th>
                         </tr>
                         {% for log in site._logs %}
-                        <tr class="log-table">
+                        <tr class="home-log-table">
                             <td>{{log.date_txt}}</td>
                             <td>{{log.desc_txt}}</td>
                         </tr>

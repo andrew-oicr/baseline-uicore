@@ -20,6 +20,8 @@ box_contents:
 
 ########################################
 
+page_heading_txt: Andrew Chin
+
 page_desc_txt: |-
     Hello there! I am a computer science undergraduate student experimenting with Arch Linux. 
     In this site, I'll be talking about my experiences with the installation and configuration of Arch, as well as
@@ -32,7 +34,7 @@ about_me_txt: |-
     and after binging Luke Smith videos I decided to migrate over to Linux. I'm currently dual booting Arch with windows on 
     my desktop using different SSD's as boot drives. 
 
-neofetchImg: /assets/site/images/neofetch_sample.png
+neofetchImg: /assets/site/images/neofetch_archone.png
 
 neofetchAlt_txt: Arch Linux Demo (neofetch)
 
