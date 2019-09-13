@@ -22,6 +22,10 @@ page_heading_txt: Hardware
 page_desc_txt: |-
     I run Arch Linux on my desktop computer that I built in summer 2018. //TODO
 
+about_txt: |-
+    Originally, I built my desktop computer to run Windows and play games. However, 
+    when I started university I didn't have the chance to bring my desktop over. 
+
 about_me_txt: |-
     I'm in my second year pursuing my Bachelor's Degree in Computer Science at the University of Waterloo.
     Prior to this year, I haven't worked with an operating system other than Windows. In my summer term where I learned 
