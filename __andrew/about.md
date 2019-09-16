@@ -9,6 +9,8 @@ permalink: /about/
 published: true
 isPublic_b: true
 
+index_ti: 1
+
 page_heading_txt: About
 
 page_desc_txt: |-

@@ -10,6 +10,7 @@ published: true
 isPublic_b: true
 
 ########################################
+index_ti: 0
 
 description: This is the home page. 
 

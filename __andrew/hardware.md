@@ -17,6 +17,8 @@ box_contents:
 
 ########################################
 
+index_ti: 2
+
 page_heading_txt: Hardware
 
 page_desc_txt: |-
