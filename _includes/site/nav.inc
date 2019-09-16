@@ -101,7 +101,7 @@
             <a id="nav-header-thing" class="navbar-brand" href="#">Andrew Chin</a>
         </div>
         
-        <div class="collapse navbar-collapse" id="myNav" style="display:inline">
+        <div class="collapse navbar-collapse" id="myNav">
             <ul class="nav navbar-nav" >
                 <li><a href="/">Home</a></li> <!-- TODO change home to _andrew collection -->
                 {% for main-page in site._andrew %}
