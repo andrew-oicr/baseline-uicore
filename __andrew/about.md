@@ -14,7 +14,9 @@ index_ti: 1
 page_heading_txt: About
 
 page_desc_txt: |-
-    //TODO
+    Hello there! I am a computer science undergraduate student experimenting with Arch Linux. 
+    In this site, I'll be talking about my experiences with the installation and configuration of Arch, as well as
+    all of the applicable knowledge I've learned while playing around with Linux.
 
 about_me_txt: |-
     I'm in my second year pursuing my Bachelor's Degree in Computer Science at the University of Waterloo.
@@ -23,7 +25,7 @@ about_me_txt: |-
     and after binging Luke Smith videos I decided to migrate over to Linux. I'm currently dual booting Arch with windows on 
     my desktop using different SSD's as boot drives. 
 
-neofetchImg: /assets/site/images/neofetch_sample.png
+neofetchImg: /assets/site/images/neofetch_archone.png
 
 neofetchAlt_txt: Arch Linux Demo (neofetch)
 

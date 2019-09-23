@@ -1,12 +1,4 @@
-%dark-theme {
-    color: $gray-text;
-    background-color: $gray-background
-}
 
-%darker {
-    color: $darker-text;
-    background-color: $darker-background
-}
 
 footer {
     text-align: center;
@@ -14,6 +6,7 @@ footer {
 }
 
 // Added cus navbar problems :CCC
+/*
 .navbar .container-fluid>.navbar-header {
     float: left;
     margin-right: 10px;
@@ -25,28 +18,9 @@ footer {
   .nav>li {
     float: left;
   }
+*/
 
-body {
-    @extend %dark-theme;
-}
 
-p {
-    //word-spacing: 2px;
-}
 
-h3 {
 
-}
 
-.home-log-table {
-    @extend %dark-theme;
-}
-
-.jumbotron {
-    @extend %darker;
-}
-
-.home-main-body {
-    font-size: 1.25em;
-    text-align: justify;
-}

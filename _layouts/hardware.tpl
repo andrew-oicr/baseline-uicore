@@ -3,7 +3,7 @@ layout: default
 ---
 
 <main id="hardware-page">
-    <section class="hard-main-body">
+    <section class="main-body">
     <div class="container">
         <div class="row">
             <div class="col-md-6">

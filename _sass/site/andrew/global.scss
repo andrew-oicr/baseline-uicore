@@ -1,0 +1,32 @@
+
+%dark-theme {
+    color: $gray-text;
+    background-color: $gray-background
+}
+
+%darker {
+    color: $darker-text;
+    background-color: $darker-background
+}
+
+nav {
+    li {
+        a {
+            font-size: 1.5em;
+        }
+        margin-right: 1em;
+    }
+}
+
+body {
+    @extend %dark-theme;
+}
+
+.jumbotron {
+    @extend %darker;
+}
+
+.main-body {
+    font-size: 1.25em;
+    text-align: justify;
+}
