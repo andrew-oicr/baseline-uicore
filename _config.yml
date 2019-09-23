@@ -66,6 +66,8 @@ collections:
     output: true
   _andrew:
     output: true
+  _programs:
+    output: true
 
 defaults:
   # Default
@@ -135,6 +137,12 @@ defaults:
       type: _andrew
     values:
       layout: andrew
+      published: true
+  - scope:
+      path: ""
+      type: _program
+    values:
+      layout: program
       published: true
 
 ######################################################################
